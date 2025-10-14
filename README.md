@@ -5,16 +5,17 @@ This repository provides a simple example that produce a vulkan driver error on 
 ## Prerequisites:
 
 - NVidia Thor dev kit
-- Tegra R38.2.1, up-to date as of 25/09/24
-- Qt 6.9.2, installed from:
-  - https://download.qt.io/official_releases/online_installers/qt-online-installer-linux-arm64-online.run
-  - Installed with minimal options
+- Tegra R38.2.1, up-to date as of 25/10/14
+- Qt 6.8.3, extracted to `./Qt` form Qt.tar.gz:
+  - `$ tar xvf Qt.tar.gz`
+- Qt dependencies:
+  - `$ sudo apt install libvulkan-dev libx11-xcb1 libfontconfig1-dev libfreetype6-dev libx11-dev libx11-xcb-dev libxext-dev libxfixes-dev libxi-dev libxrender-dev libxcb1-dev libxcb-glx0-dev libxcb-keysyms1-dev libxcb-image0-dev libxcb-shm0-dev libxcb-icccm4-dev libxcb-sync-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-randr0-dev libxcb-render-util0-dev libxcb-util-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev libxcb-cursor-dev libpulse-dev`
 
 ## Run sample
 
 Start with the qml interpreter:
 
-    $ ~/Qt/6.9.2/gcc_arm64/bin/qml -style Universal -r vulkan Player.qml
+    $ ./Qt/bin/qml -style Universal -r vulkan Main.qml
 
 Then click on the `Open` button.
 

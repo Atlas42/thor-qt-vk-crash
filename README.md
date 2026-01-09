@@ -5,10 +5,11 @@ This repository provides a simple example that produce a vulkan driver error on 
 ## Prerequisites:
 
 - NVidia Thor or Orin dev kit, up-to date as of 25/10/14
-  - Thor: Tegra R38.2.1
+  - Thor: Tegra R38.2.1 (Jetpack 7.0)
+  - Thor: Tegra R38.4.0 (Jetpack 7.1)
   - Orin: Tegra R36.4.7 
-- Qt 6.8.3, extracted to `./Qt` form Qt-thor.tar.gz or Qt-orin.tar.gz:
-  - `$ tar xvf Qt-thor.tar.gz`
+- Qt 6.8.3, extracted to `./Qt` form Qt-thor-7-0.tar.gz, Qt-thor-7-1.tar.gz or Qt-orin.tar.gz:
+  - `$ tar xvf Qt-thor-7-1.tar.gz`
 - Qt dependencies:
   - `$ sudo apt install libvulkan-dev libx11-xcb1 libfontconfig1-dev libfreetype6-dev libx11-dev libx11-xcb-dev libxext-dev libxfixes-dev libxi-dev libxrender-dev libxcb1-dev libxcb-glx0-dev libxcb-keysyms1-dev libxcb-image0-dev libxcb-shm0-dev libxcb-icccm4-dev libxcb-sync-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-randr0-dev libxcb-render-util0-dev libxcb-util-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev libxcb-cursor-dev libpulse-dev`
 
